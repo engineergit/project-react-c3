@@ -27,4 +27,4 @@ jobs:
     - name:  Install Surge
       run: npm install -g surge
     - name: Deploy React App To Surge
-      run: surge ./build bootcampsohailreactapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build sohailreactapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
